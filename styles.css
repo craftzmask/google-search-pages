@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Nav */
+
+a {
+    color: #202124;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+nav, footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    column-gap: 25px;
+}
+
+.sign-in {
+    color: white;
+    background-color: #1a73e8;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+/* Main */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    row-gap: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.material-symbols-outlined {
+    vertical-align: middle;
+}
+
+.search-icon {
+    color: #9aa0a6;
+}
+
+input {
+    border: none;
+    width: 100%;
+}
+
+input[name="q"] {
+    font-size: 18px;
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+input[type="submit"] {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    color: #3c4043;
+    padding: 12px 15px;
+    width:fit-content;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    border: 1px solid #dadce0;
+}
+
+.form-control {
+    display: flex;
+    border: 1px solid #dfe1e5;
+    column-gap: 10px;
+    border-radius: 30px;
+    padding: 12px 15px;
+    width: 580px;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    column-gap: 12px;
+}
+
+/* Footer */
+footer {
+    margin-top: auto;
+    background-color: #f2f2f2;
+    padding: 15px 30px;
+}
+
+footer ul {
+    flex: 1;
+}
+
+.footer-middle {
+    justify-content: center;
+}
+
+.footer-end {
+    justify-content: flex-end;
+}

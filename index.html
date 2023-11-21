@@ -2,15 +2,63 @@
 <html lang="en">
     <head>
         <title>Search</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     </head>
     <body>
         <nav>
-            <a href="/image.html">Image Search</a>
-            <a href="/advance.html">Advance Search</a>
+            <ul>
+                <li><a href="">About</a></li>
+                <li><a href="">Store</a></li>
+            </ul>
+            <ul>
+                <li><a href="">Gmail</a></li>
+                <li><a href="/image.html">Images</a></li>
+                <li><a href="/advance.html">Advance</a></li>
+                <li><a href="">
+                    <span class="material-symbols-outlined">
+                        apps
+                    </span>                       
+                </a></li>
+                <li><a class="sign-in">Sign In</a></li>
+            </ul>
         </nav>
-        <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+
+        <main>
+            <img src="/google-img.gif" alt="google image">
+            <form action="https://google.com/search">
+                <div class="form-control">
+                    <span class="material-symbols-outlined search-icon">
+                        search
+                    </span>
+                    <input type="text" name="q">
+                </div>
+                <div class="buttons">
+                    <input type="submit" value="Google Search">
+                    <input type="submit" value="I'm Feeling Lucky">
+                </div>
+            </form>
+        </main>
+
+        <footer>
+            <ul class="footer-start">
+                <li><a href="">Advertising</a></li>
+                <li><a href="">Business</a></li>
+                <li><a href="">How Search works</a></li>
+            </ul>
+            <ul class="footer-middle">
+                <li>
+                    <img src="/icon.png" height="14px">
+                    <a href="">Out third decade of climate action: join us</a>
+                </li>
+            </ul>
+
+            <ul class="footer-end">
+                <li><a href="">Privacy</a></li>
+                <li><a href="">Term</a></li>
+                <li><a href="">Settings</a></li>
+            </ul>
+
+        </footer>
     </body>
 </html>
