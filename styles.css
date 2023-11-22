@@ -13,11 +13,11 @@ body {
 }
 
 /* Nav */
-
 a {
     color: #202124;
     text-decoration: none;
     font-size: 14px;
+    vertical-align: middle;
 }
 
 nav, footer {
@@ -30,6 +30,7 @@ ul {
     display: flex;
     list-style: none;
     column-gap: 25px;
+    align-items: baseline;
 }
 
 .sign-in {
@@ -47,6 +48,21 @@ main {
     align-items: center;
     margin-top: 5%;
     row-gap: 20px;
+}
+
+.img-group {
+    margin-top: 5%;
+    margin-bottom: -10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.img-group span {
+    position: relative;
+    top: -20px;
+    right: 4px;
+    color: #4285f4;
 }
 
 form {

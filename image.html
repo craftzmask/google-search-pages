@@ -2,14 +2,52 @@
 <html lang="en">
     <head>
         <title>Search</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     </head>
     <body>
         <nav>
-            <a href="/index.html">Google Search</a>
+            <div></div>
+            <ul>
+                <a href="/index.html">Google Search</a>
+                <li><a href="">
+                    <span class="material-symbols-outlined">
+                        apps
+                    </span>                       
+                </a></li>
+                <li><a class="sign-in">Sign In</a></li>
+            </ul>
         </nav>
-        <form action="https://images.google.com/images">
-            <input type="text" name="q">
-            <input type="submit" value="Google Image Search">
-        </form>
+
+        <main>
+            <div class="img-group">
+                <img src="/google-image.png" width="272" alt="google image">
+                <span>Images</span>
+            </div>
+            <form action="https://images.google.com/images">
+                <div class="form-control">
+                    <span class="material-symbols-outlined search-icon">
+                        search
+                    </span>
+                    <input type="text" name="q">
+                </div>
+                <input type="submit" value="Google Image Search">
+            </form>
+        </main> 
+
+        <footer>
+            <ul class="footer-start">
+                <li><a href="">Advertising</a></li>
+                <li><a href="">Business</a></li>
+                <li><a href="">How Search works</a></li>
+            </ul>
+
+            <ul class="footer-end">
+                <li><a href="">Privacy</a></li>
+                <li><a href="">Term</a></li>
+                <li><a href="">Settings</a></li>
+            </ul>
+
+        </footer>
     </body>
 </html>
