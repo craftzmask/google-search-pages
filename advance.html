@@ -2,29 +2,71 @@
 <html lang="en">
     <head>
         <title>Search</title>
+        <link rel="stylesheet" href="advance.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     </head>
     <body>
         <nav>
-            <a href="/index.html">Google Search</a>
+            <ul>
+                <li>
+                    <a href="/index.html"></a>
+                </li>
+            </ul>
+            <ul>
+                <li><a href="">
+                    <span class="material-symbols-outlined">
+                        apps
+                    </span>                       
+                </a></li>
+                <li><a class="sign-in">Sign In</a></li>
+            </ul>
         </nav>
-        <form action="https://google.com/search">
-            <div>
-                <label for="">all these words:</label>
-                <input type="text" name="as_q">
-            </div>
-            <div>
-                <label for="">this exact word or phrase:</label>
-                <input type="text" name="as_epq">
-            </div>
-            <div>
-                <label for="">any of these words:</label>
-                <input type="text" name="as_oq">
-            </div>
-            <div>
-                <label for="">none of these words:</label>
-                <input type="text" name="as_eq">
-            </div>
-            <input type="submit" value="Advance Search">
-        </form>
+
+        <header>Advanced Search</header>
+
+        <main>
+            <form action="https://google.com/search">
+                <div class="form-control">
+                    <div class="form-title">Find pages with...</div>
+                    <div class="form-empty-box"></div>
+                    <div class="form-example">To do this in the search box</div>
+                </div>
+                <div class="form-control">
+                    <div class="label">all these words:</div>
+                    <input type="text" name="as_q">
+                    <div class="example">Type the important words:  <span>tricolor rat terrier</span></div>
+                </div>
+                <div class="form-control">
+                    <div class="label">this exact word or phrase:</div>
+                    <input type="text" name="as_epq">
+                    <div class="example">Put exact words in quotes: <span>"rat terrier"</span></div>
+                </div>
+                <div class="form-control">
+                    <div class="label">any of these words:</div>
+                    <input type="text" name="as_oq">
+                    <div class="example">Type OR between all the words you want: <span>miniature OR standard</span></div>
+                </div>
+                <div class="form-control">
+                    <div class="label">none of these words:</div>
+                    <input type="text" name="as_eq">
+                    <div class="example">Put a minus sign just before words you don't want: <span>-rodent, -"Jack Russell"</span></div>
+                </div>
+                <div class="form-control">
+                    <div class="form-title"></div>
+                    <div class="form-empty-box">
+                        <input type="submit" value="Advance Search">
+                    </div>
+                    <div class="form-example"></div>
+                </div>
+            </form>
+        </main>
+
+        <footer>
+            <ul class="footer-start">
+                <li><a href="">Help</a></li>
+                <li><a href="">Privacy</a></li>
+                <li><a href="">Terms</a></li>
+            </ul>
+        </footer>
     </body>
 </html>

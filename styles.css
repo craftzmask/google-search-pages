@@ -20,6 +20,10 @@ a {
     vertical-align: middle;
 }
 
+a[href="/index.html"] {
+    content: url("https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg");
+}
+
 nav, footer {
     display: flex;
     justify-content: space-between;
@@ -82,12 +86,12 @@ form {
 }
 
 input {
-    border: none;
     width: 100%;
 }
 
 input[name="q"] {
     font-size: 18px;
+    border: none;
 }
 
 input:focus-visible {
